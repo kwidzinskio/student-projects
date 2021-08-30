@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May  6 23:45:15 2021
-
-@author: kwidz
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May  6 20:57:20 2021
-
-@author: kwid# -*- coding: utf-8 -*-
-"""
 
 import numpy as np
 import time
