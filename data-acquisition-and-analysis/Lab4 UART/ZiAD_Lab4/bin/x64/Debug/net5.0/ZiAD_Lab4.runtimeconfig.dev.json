@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\kwidz\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kwidz\\.nuget\\packages"
+    ]
+  }
+}

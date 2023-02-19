@@ -1,0 +1,13 @@
+Mood,Hunger,Money,Choice
+Good,Extreme,High,Restaurant
+Average,Peckish,Low,Foodtruck
+Average,Extreme,High,Restaurant
+Good,Peckish,High,Restaurant
+Bad,Extreme,High,Restaurant
+Bad,Peckish,High,Foodtruck
+Average,Extreme,High,Restaurant
+Average,Extreme,Low,Foodtruck
+Average,Average,Low,Foodtruck
+Good,Average,Low,Foodtruck
+Bad,Peckish,Low,Foodtruck
+Average,Peckish,High,Restaurant

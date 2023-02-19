@@ -1,0 +1,24 @@
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\bin\Debug\lockFileex.exe.config
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\bin\Debug\lockFileex.exe
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\bin\Debug\lockFileex.pdb
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\obj\Debug\lockFileex.csproj.AssemblyReference.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\obj\Debug\lockFileex.csproj.SuggestedBindingRedirects.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\obj\Debug\lockFileex.csproj.CoreCompileInputs.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\obj\Debug\lockFileex.exe
+C:\Users\kwidz\Desktop\PG\ZIAD\ZiAD 2022\2\lockFileex - Lab 2\lockFileex - Lab 2\lockFileex\obj\Debug\lockFileex.pdb
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\obj\Debug\lockFileex.csproj.AssemblyReference.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\obj\Debug\lockFileex.csproj.SuggestedBindingRedirects.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\obj\Debug\lockFileex.csproj.CoreCompileInputs.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\obj\Debug\lockFileex.exe
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\obj\Debug\lockFileex.pdb
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\bin\Debug\lockFileex.exe.config
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\bin\Debug\lockFileex.exe
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2\lockFileex\bin\Debug\lockFileex.pdb
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\bin\Debug\lockFileex.exe.config
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\bin\Debug\lockFileex.exe
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\bin\Debug\lockFileex.pdb
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\obj\Debug\lockFileex.csproj.AssemblyReference.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\obj\Debug\lockFileex.csproj.SuggestedBindingRedirects.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\obj\Debug\lockFileex.csproj.CoreCompileInputs.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\obj\Debug\lockFileex.exe
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab2 współdzielenie LockEx\lockFileex\obj\Debug\lockFileex.pdb

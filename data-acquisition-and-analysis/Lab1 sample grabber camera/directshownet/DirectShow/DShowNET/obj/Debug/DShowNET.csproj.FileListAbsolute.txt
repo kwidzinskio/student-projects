@@ -1,0 +1,12 @@
+C:\Users\count\Downloads\od prowadzącego\directshownet\DirectShow\DShowNET\bin\Debug\DShowNET.dll
+C:\Users\count\Downloads\od prowadzącego\directshownet\DirectShow\DShowNET\bin\Debug\DShowNET.pdb
+C:\Users\count\Downloads\od prowadzącego\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.csproj.AssemblyReference.cache
+C:\Users\count\Downloads\od prowadzącego\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.csproj.CoreCompileInputs.cache
+C:\Users\count\Downloads\od prowadzącego\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.dll
+C:\Users\count\Downloads\od prowadzącego\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.pdb
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab1 kamera\directshownet\DirectShow\DShowNET\bin\Debug\DShowNET.dll
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab1 kamera\directshownet\DirectShow\DShowNET\bin\Debug\DShowNET.pdb
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab1 kamera\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.csproj.AssemblyReference.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab1 kamera\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.csproj.CoreCompileInputs.cache
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab1 kamera\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.dll
+C:\Users\kwidz\Desktop\PG\ZIAD\Moje\Lab1 kamera\directshownet\DirectShow\DShowNET\obj\Debug\DShowNET.pdb

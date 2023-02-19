@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+ <meta charset="utf-8">
+ <title>LAB6</title>
+ <style>
+        .topnav {
+            height:50px;
+            width:100%;
+            position: fixed;
+            z-index:1;
+            top: 0;
+            right: 0;
+            background-color:#111;
+            overflow-x: :hidden;
+            padding-top: 20px;
+            text-align: right;
+        }
+
+        .topnav a,p{
+            padding-right: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: inline;
+        }
+
+        .topnav span{
+            padding-right: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            color: green;
+            display: inline;
+        }
+
+        .topnav a:hover{
+            color: #f1f1f1
+        }
+
+        .main{
+            padding: 100px;
+		height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            position: fixed;
+		background-color: #fffaa8
+        }
+
+        .main h1 {
+		color: #000000;
+        }
+ </style>
+ <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+
+<body>
+    <div class="topnav">
+	<p>X: <span id="cordX"></span></p>
+	<p>Y: <span id="cordY"></span></p>
+	<p>CLIENT: <span id="agent"></span></p>
+      <a href="/logout">Logout</a>
+      <a href="/login">Login</a>
+    </div>
+    <div class="main">
+	<h1>Our teams</h1>
+    	<table width="100%" cellspacing="0" cellpadding="0">
+		<tr valign="top">
+			<td width="0"><img src="./static/lewy.jpg"></td>
+			<td width="0"><img src="./static/srodek.jpg"></td>
+			<td width="0"><img src="./static/prawy.jpg"></td>
+		</tr>
+	</table>
+
+    </div>
+    <script>
+        $("div").mousemove(function (event) {
+            $("#cordX").text(event.pageX);
+            $("#cordY").text(event.pageY);
+            $("#agent").text(navigator.userAgent)
+            $.ajax({
+                url: 'lab6.php',
+                method: 'POST',
+                dataType: 'json',
+                data: {
+                	UserAgent: JSON.stringify(navigator.userAgent),
+                	cordX: JSON.stringify(event.pageX),
+                	cordY: JSON.stringify(event.pageY)
+                },
+            });
+            console.log(data);
+        });
+    </script>
+</body>
+
+
+</html>

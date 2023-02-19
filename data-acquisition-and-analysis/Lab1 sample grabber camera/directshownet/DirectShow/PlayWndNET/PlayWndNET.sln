@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayWndNET", "PlayWndNET.csproj", "{20732AAB-3DCF-4BC5-97A2-B3DC706A331D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DShowNET", "..\DShowNET\DShowNET.csproj", "{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{20732AAB-3DCF-4BC5-97A2-B3DC706A331D}.Debug.ActiveCfg = Debug|.NET
+		{20732AAB-3DCF-4BC5-97A2-B3DC706A331D}.Debug.Build.0 = Debug|.NET
+		{20732AAB-3DCF-4BC5-97A2-B3DC706A331D}.Release.ActiveCfg = Release|.NET
+		{20732AAB-3DCF-4BC5-97A2-B3DC706A331D}.Release.Build.0 = Release|.NET
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Debug.ActiveCfg = Debug|.NET
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Debug.Build.0 = Debug|.NET
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Release.ActiveCfg = Release|.NET
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

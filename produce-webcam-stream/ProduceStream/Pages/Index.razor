@@ -1,0 +1,58 @@
+﻿@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+@page "/"
+@using System.Net.WebSockets;
+
+<PageTitle>Index</PageTitle>
+
+
+<h1>Blazor Webcam</h1>
+<video id="videoFeed" width="320" height="240" /><canvas class="d-none" id="currentFrame" width="320" height="240" /><br />
+<button class="btn btn-primary mb-3" @onclick="CaptureFrame">Start</button>
+<button class="btn btn-primary mb-3" @onclick="EndCapture">Stop</button> <br />
+<h2 id="dataSizeLabel"></h2> <br />
+<h2 id="frameCount"></h2> <br />
+
+
+@code {
+    CancellationTokenSource disposalTokenSource = new CancellationTokenSource();
+    ClientWebSocket clientSocket = new ClientWebSocket();
+
+    private async Task EndCapture()
+    {
+        await JSRuntime.InvokeVoidAsync("endFrameCapture");
+        if (clientSocket.State == WebSocketState.Open)
+        {
+            await clientSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "--", disposalTokenSource.Token);
+            clientSocket.Dispose();
+            clientSocket = new ClientWebSocket();
+            disposalTokenSource = new CancellationTokenSource();
+        }
+    }
+
+    [JSInvokable]
+    public void ProcessImage(string imageString, long dataSize)
+    {
+        byte[] imageData = Convert.FromBase64String(imageString.Split("base64,")[1]);
+        if (clientSocket.State == WebSocketState.Open)
+        {
+            clientSocket.SendAsync(new ArraySegment<byte>(imageData), WebSocketMessageType.Binary, true, disposalTokenSource.Token);
+        }
+        
+    }
+
+    private async Task CaptureFrame()
+    {
+        await clientSocket.ConnectAsync(new Uri("ws://localhost:8000/ws"), disposalTokenSource.Token);
+        await JSRuntime.InvokeVoidAsync("startFrameCapture", "videoFeed", "currentFrame", DotNetObjectReference.Create(this));
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("startVideo", "videoFeed");
+        }
+    }
+}
